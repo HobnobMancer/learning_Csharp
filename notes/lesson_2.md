@@ -121,8 +121,14 @@ double myDouble = 3.2;
 int myInt = (int)myDouble;
 ```
 
+It is not possible to explicitly convert a `string` into an `int`, or vice versa.
+
+[More info](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/how-to-convert-a-string-to-a-number).
+
 ### Built-in Methods
 It’s also possible to convert data types using built-in methods. For most data types, there is a `Convert.ToX()` method, like `Convert.ToString()` and `Convert.ToDouble()`. For a full list of Convert class built-in methods, check out the [Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.7.2).
 
-
-
+- `Convert.ToString()`
+- `Convert.ToX()`
+- `Convert.ToDouble()`
+- `Convert.ToInt32()`
