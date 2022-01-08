@@ -86,3 +86,43 @@ string i'mnot; // this will cause errors
 Reserved keywords cannot be used, because they already have specific definitions.
 
 Don't forge to end each statement with a semicolon `;`.
+
+## Converting Data Types
+
+Convert double to int the following won't work!
+```csharp
+double myDouble = 3.2;
+ 
+// Round myDouble to the nearest whole number
+int myInt = myDouble;
+```
+But you can do the opposite:
+```csharp
+int myInt = 3;
+// Turn it into a decimal
+double MyDouble = myInt;
+```
+**REASON:**  
+C# checks to make sure that when we convert data types from one to another that we’re not losing any data, because that could cause problems in our code.
+
+### Implict Conversions
+- automatic if no data is lost
+- can convert int to double
+
+### Explict Conversion
+- cast operator required
+- double to int would used `(int)`
+
+To fix the code above:
+```csharp
+double myDouble = 3.2;
+ 
+// Round myDouble to the nearest whole number
+int myInt = (int)myDouble;
+```
+
+### Built-in Methods
+It’s also possible to convert data types using built-in methods. For most data types, there is a `Convert.ToX()` method, like `Convert.ToString()` and `Convert.ToDouble()`. For a full list of Convert class built-in methods, check out the [Microsoft Documentation](https://docs.microsoft.com/en-us/dotnet/api/system.convert?view=netframework-4.7.2).
+
+
+
