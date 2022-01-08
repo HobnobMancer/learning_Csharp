@@ -1,3 +1,4 @@
+// Script for pracising defining variables
 using System;
 
 namespace Form
