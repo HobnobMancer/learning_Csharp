@@ -1,5 +1,8 @@
 # Data Types and Variables
 
+[Microsoft documentation](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
+[Cheatsheet](https://content.codecademy.com/courses/learn-c-sharp/data-types-variables/C%23%20Data%20Types%20Cheat%20Sheet.pdf)
+
 [Codecademy lesson content](https://www.codecademy.com/courses/learn-c-sharp/lessons/csharp-data-types-variables/exercises/introduction-to-data-types-and-variables-csharp)
 
 When coding we’re telling the computer how to process pieces of information.
